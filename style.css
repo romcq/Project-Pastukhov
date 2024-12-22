@@ -1,0 +1,217 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header_top {
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;
+}
+
+.header_top .conteiner {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.header_contacts a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.header_contacts a:hover {
+    text-decoration: underline;
+}
+
+.header_content {
+    padding: 20px 0;
+    background-color: #333;
+    background-image: url('img/line.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu ul li {
+    margin: 0 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff; 
+    font-size: 16px;
+}
+
+.menu ul li a:hover {
+    color: #007bff;
+}
+
+/* Слайдер */
+.slider_item-content {
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6); /* Полупрозрачный фон */
+    border: 2px solid #fff; /* Рамка вокруг текста */
+    border-radius: 10px; /* Скругленные углы */
+}
+
+.slider_title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.slider_text {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.slider_btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.slider_btn:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+.carousel-item {
+    position: relative;
+    min-height: 500px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
+
+.partners {
+    background-color: #f9f9f9;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.card-img-top {
+    max-height: 150px;
+    object-fit: contain;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.about {
+    background-color: #f9f9f9;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.video-wrapper {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Секция консультации */
+.consultation {
+    background-color: #f9f9f9;
+}
+
+.consultation .section-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+/* Футер */
+.footer {
+    background-color: #333;
+    color: #ccc;
+}
+
+.footer h5 {
+    color: #fff;
+}
+
+.footer a {
+    color: #ccc;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
+/* Иконки в футере */
+.footer-icon {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu ul li {
+        margin: 10px 0;
+    }
+
+    .slider_item-content {
+        padding: 15px;
+        font-size: 0.9rem;
+    }
+}

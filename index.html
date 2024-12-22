@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пастухов Проект</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Хедер -->
+    <div class="header_content">
+        <div class="container">
+            <nav class="menu">
+                <ul>
+                    <li><a href="#programs">Образовательные программы</a></li>
+                    <li><a href="#partners">Компании-партнеры</a></li>
+                    <li><a href="#about">Об ИРИТ РТФ</a></li>
+                    <li><a href="#consultation">Консультация</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Слайдер -->
+    <section id="programs" class="slider">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <!-- Индикаторы -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <!-- Слайды -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img\csm_igor-ovsyannykov-530802-unsplash-1920x350_c52200a2b2.jpg" alt="Слайд 1">
+                    <div class="slider_item-content">
+                        <div class="slider_title">Информатика и вычислительная техника</div>
+                        <div class="slider_text">09.03.01</div>
+                        <a href="#" class="slider_btn">Подробнее</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img\csm_Konstruirovanie_i_tekhnologii_elektronnykh_sredstv_8724ce389e.png" alt="Слайд 2">
+                    <div class="slider_item-content">
+                        <div class="slider_title">Прикладная информатика</div>
+                        <div class="slider_text">09.03.03</div>
+                        <a href="#" class="slider_btn">Подробнее</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img\csm_Programmnaja_inzhenerija_46c303120f.png" alt="Слайд 3">
+                    <div class="slider_item-content">
+                        <div class="slider_title">Программная инженерия</div>
+                        <div class="slider_text">09.03.04</div>
+                        <a href="#" class="slider_btn">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Навигация -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section id="partners" class="partners py-5">
+        <div class="container">
+            <!-- Заголовок раздела -->
+            <h2 class="section-title text-center mb-5">Компании-партнеры</h2>
+            
+            <!-- Ряд с логотипами и описаниями -->
+            <div class="row g-4">
+                <div class="col-md-4 col-sm-6">
+                    <div class="card h-100 text-center">
+                        <img src="img\811280.png" class="card-img-top p-3" alt="Логотип компании">
+                        <div class="card-body">
+                            <h5 class="card-title">UDV GROUP</h5>
+                            <p class="card-text">Ведущий российский разработчик в области кибербезопасности</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card h-100 text-center">
+                        <img src="img\Rectangle_51.png" class="card-img-top p-3" alt="Логотип компании">
+                        <div class="card-body">
+                            <h5 class="card-title">УЦСБ</h5>
+                            <p class="card-text">ИТ-компания и системный интегратор, специализирующаяся на цифровой инфраструктуре бизнеса и госорганов</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card h-100 text-center">
+                        <img src="img\p1_3425506_16b50fca.jpg" class="card-img-top p-3" alt="Логотип компании">
+                        <div class="card-body">
+                            <h5 class="card-title">СКБ Контур</h5>
+                            <p class="card-text">Группа компаний, занимающаяся разработкой программного обеспечения для бизнеса</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card h-100 text-center">
+                        <img src="img\NAUMEN.jpg" class="card-img-top p-3" alt="Логотип компании">
+                        <div class="card-body">
+                            <h5 class="card-title">Naumen</h5>
+                            <p class="card-text">Компания-разработчик программного обеспечения класса Service Desk, BPM, Contact Center, e-Learning</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card h-100 text-center">
+                        <img src="img\17259.png" class="card-img-top p-3" alt="Логотип компании">
+                        <div class="card-body">
+                            <h5 class="card-title">Т Банк</h5>
+                            <p class="card-text">IT подразделение одного из крупнейших банков России</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card h-100 text-center">
+                        <img src="img\Rectangle_50-removebg-preview.png" class="card-img-top p-3" alt="Логотип компании">
+                        <div class="card-body">
+                            <h5 class="card-title">НПО Автоматики</h5>
+                            <p class="card-text">Предприятие, занимающееся разработкой и производством систем управления и радиоэлектроники для ракетно-космической и промышленной техники</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about" class="about py-5">
+        <div class="container">
+            <!-- Заголовок раздела -->
+            <h2 class="section-title text-center mb-5">Больше про ИРИТ РТФ</h2>
+            
+            <div class="row g-4">
+                <!-- Первое видео -->
+                <div class="col-md-6">
+                    <div class="video-wrapper">
+                        <iframe 
+                            src="https://rutube.ru/play/embed/564034ad9f05b9ed0064a67f49e27a7a" 
+                            width="100%" 
+                            height="300" 
+                            frameborder="0" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+                
+                <!-- Второе видео -->
+                <div class="col-md-6">
+                    <div class="video-wrapper">
+                        <iframe 
+                            src="https://rutube.ru/play/embed/90c9653aa985e4ea7b5528e752ac1487/?r=plwd" 
+                            width="100%" 
+                            height="300" 
+                            frameborder="0" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="consultation" class="consultation py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title text-center mb-4">Заказать консультацию</h2>
+            <p class="text-center mb-5">
+                Оставьте свои контактные данные, и наши специалисты свяжутся с вами для предоставления подробной информации о наших образовательных программах и возможностях для поступления.
+            </p>
+            <form id="consultationForm" action="#" method="post" class="row g-3">
+                <!-- Имя -->
+                <div class="col-md-6">
+                    <label for="name" class="form-label">Имя</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Введите ваше имя">
+                </div>
+    
+                <!-- Email -->
+                <div class="col-md-6">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Введите ваш email">
+                </div>
+    
+                <!-- Номер телефона -->
+                <div class="col-12">
+                    <label for="phone" class="form-label">Номер телефона</label>
+                    <input type="tel" class="form-control" id="phone" name="phone" placeholder="Введите ваш номер телефона">
+                </div>
+    
+                <!-- Сообщение -->
+                <div class="col-12">
+                    <label for="message" class="form-label">Сообщение</label>
+                    <textarea class="form-control" id="message" name="message" rows="4" placeholder="Напишите ваше сообщение"></textarea>
+                </div>
+    
+                <!-- Кнопка отправки -->
+                <div class="col-12 text-center">
+                    <button type="submit" class="btn btn-primary px-4">Отправить</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    
+    
+
+    <!-- Футер -->
+    <footer id="contacts" class="footer bg-dark text-light py-4">
+        <div class="container">
+            <div class="row">
+                <!-- Контактная информация -->
+                <div class="col-md-6">
+                    <h5>Контакты</h5>
+                    <ul class="list-unstyled">
+                        <li class="d-flex align-items-center mb-2">
+                            <img src="img\tele.png" alt="Телефон" class="footer-icon me-2">
+                            <a class="text-light text-decoration-none" href="tel:+73433759700">+7 (343) 375-97-00</a>
+                        </li>
+                        <li class="d-flex align-items-center mb-2">
+                            <img src="img\e_mail_.png" alt="Email" class="footer-icon me-2">
+                            <a class="text-light text-decoration-none" href="mailto:rtf@urfu.ru">rtf@urfu.ru</a>
+                        </li>
+                        <li class="d-flex align-items-center mb-2">
+                            <img src="img\1719809925_.png" alt="Telegram" class="footer-icon me-2">
+                            <a class="text-light text-decoration-none" href="https://telegram.me/Iritatoday" target="_blank">Telegram</a>
+                        </li>
+                        <li class="d-flex align-items-center">
+                            <img src="img\geo_0.png" alt="Карта" class="footer-icon me-2">
+                            <a class="text-light text-decoration-none" href="https://yandex.ru/maps/54/yekaterinburg/?ll=60.653400%2C56.840615&mode=poi&poi%5Bpoint%5D=60.650797%2C56.840768&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D1281218033&utm_source=main_stripe_big&z=16.38" target="_blank">Карта</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Доп информация -->
+                <div class="col-md-6">
+                    <h5>ИРИТ РТФ</h5>
+                    <p>Институт радиоэлектроники и информационных технологий - РТФ</p>
+                </div>
+            </div>
+            <div class="text-center mt-3">
+                <p class="mb-0">© ФГАОУ ВО «УрФУ имени первого Президента России Б.Н. Ельцина»</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

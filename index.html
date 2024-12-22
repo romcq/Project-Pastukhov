@@ -18,7 +18,9 @@
                     <li><a href="#programs">Образовательные программы</a></li>
                     <li><a href="#partners">Компании-партнеры</a></li>
                     <li><a href="#about">Об ИРИТ РТФ</a></li>
+                    <li><a href="#science">Наука</a></li>
                     <li><a href="#consultation">Консультация</a></li>
+                    <li><a href="#feedback">Отзывы</a></li>
                     <li><a href="#contacts">Контакты</a></li>
                 </ul>
             </nav>
@@ -173,6 +175,55 @@
         </div>
     </section>
 
+    <!-- Секция "Наука" -->
+    <section id="science" class="science py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Наука</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <img src="img\090301.png" class="card-img-top" alt="Совет молодых ученых">
+                        <div class="card-body">
+                            <h5 class="card-title">Совет молодых ученых</h5>
+                            <p class="card-text">Краткое описание работы совета молодых ученых.</p>
+                            <a href="#" class="btn btn-warning">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <img src="img\100301.png" class="card-img-top" alt="Конференции">
+                        <div class="card-body">
+                            <h5 class="card-title">Конференции</h5>
+                            <p class="card-text">Информация о предстоящих конференциях.</p>
+                            <a href="#" class="btn btn-warning">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <img src="img\090303.png" class="card-img-top" alt="Ural Radio Engineering Journal">
+                        <div class="card-body">
+                            <h5 class="card-title">Ural Radio Engineering Journal</h5>
+                            <p class="card-text">Информация о журнале.</p>
+                            <a href="#" class="btn btn-warning">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <img src="img\090304.png" class="card-img-top" alt="Авторская справка">
+                        <div class="card-body">
+                            <h5 class="card-title">Авторская справка</h5>
+                            <p class="card-text">Описание процедуры авторской справки.</p>
+                            <a href="#" class="btn btn-warning">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
     <section id="consultation" class="consultation py-5 bg-light">
         <div class="container">
             <h2 class="section-title text-center mb-4">Заказать консультацию</h2>
@@ -212,7 +263,118 @@
         </div>
     </section>
     
-    
+    <!-- Секция с отзывами -->
+    <section id="feedback" class="reviews py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Отзывы студентов и выпускников</h2>
+            <div class="row">
+                <!-- Карточка отзыва -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100" data-bs-toggle="modal" data-bs-target="#review1">
+                        <img src="img\altynceva_card.jpg" class="card-img-top" alt="Мария Алтынцева">
+                        <div class="card-body">
+                            <h5 class="card-title">Мария Алтынцева</h5>
+                            <p class="card-text">Управление в технических системах, 3 курс (2023).</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100" data-bs-toggle="modal" data-bs-target="#review2">
+                        <img src="img\povarnina_card.jpg" class="card-img-top" alt="Екатерина Поварнина">
+                        <div class="card-body">
+                            <h5 class="card-title">Екатерина Поварнина</h5>
+                            <p class="card-text">Технология полиграфического и упаковочного производства, 2 курс (2023).</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100" data-bs-toggle="modal" data-bs-target="#review3">
+                        <img src="img\sazonkina_card.jpg" class="card-img-top" alt="Евгения Сазонкина">
+                        <div class="card-body">
+                            <h5 class="card-title">Евгения Сазонкина</h5>
+                            <p class="card-text">Технология полиграфического и упаковочного производства, 3 курс (2023).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Модальные окна для отзывов -->
+    <div class="modal fade" id="review1" tabindex="-1" aria-labelledby="review1Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="review1Label">Мария Алтынцева</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                </div>
+                <div class="modal-body">
+                    Это был потрясающий опыт учебы. Я научилась многим полезным навыкам, которые помогают мне на практике.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="review2" tabindex="-1" aria-labelledby="review2Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="review2Label">Екатерина Поварнина</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                </div>
+                <div class="modal-body">
+                    Обучение здесь открыло для меня новые возможности. Преподаватели очень профессиональные и отзывчивые.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="review3" tabindex="-1" aria-labelledby="review3Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="review2Label">Евгения Сазонкина</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                </div>
+                <div class="modal-body">
+                    Учеба в этом университете оказалась незаменимым этапом моей жизни. Здесь я получила не только знания, но и невероятный опыт работы в команде. Преподаватели всегда готовы помочь, а проекты дают возможность раскрыть свой потенциал. Рекомендую всем, кто хочет связать свою жизнь с IT!
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Форма оставить отзыв -->
+    <section id="feedback-form" class="feedback-form py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Оставить отзыв об обучении</h2>
+            <form id="reviewForm">
+                <div class="mb-3">
+                    <label for="reviewerName" class="form-label">Ваше имя</label>
+                    <input type="text" class="form-control" id="reviewerName" placeholder="Введите ваше имя" required>
+                </div>
+                <div class="mb-3">
+                    <label for="reviewerEmail" class="form-label">Ваш Email</label>
+                    <input type="email" class="form-control" id="reviewerEmail" placeholder="Введите ваш email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="reviewerCourse" class="form-label">Курс обучения</label>
+                    <select class="form-select" id="reviewerCourse" required>
+                        <option value="" disabled selected>Выберите курс</option>
+                        <option value="1">1 курс</option>
+                        <option value="2">2 курс</option>
+                        <option value="3">3 курс</option>
+                        <option value="4">4 курс</option>
+                        <option value="выпускник">Выпускник</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="reviewText" class="form-label">Ваш отзыв</label>
+                    <textarea class="form-control" id="reviewText" rows="4" placeholder="Напишите ваш отзыв" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary px-4">Отправить отзыв</button>
+            </form>
+        </div>
+    </section>
 
     <!-- Футер -->
     <footer id="contacts" class="footer bg-dark text-light py-4">

@@ -40,21 +40,26 @@ body {
     margin: 0;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 10px; /* Уменьшено расстояние между кнопками */
 }
 
 .menu ul li {
-    margin: 0 20px;
+    margin: 0;
 }
 
 .menu ul li a {
     text-decoration: none;
     color: #fff; 
     font-size: 16px;
+    border: 2px solid #fff; /* Постоянная рамка */
+    padding: 5px 15px; /* Уменьшен padding для уменьшения ширины кнопок */
+    display: inline-block;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .menu ul li a:hover {
-    color: #007bff;
+    color: #333;
+    background-color: #fff; /* Меняется цвет фона при наведении */
 }
 
 /* Слайдер */
@@ -168,7 +173,6 @@ body {
     font-weight: bold;
 }
 
-
 /* Футер */
 .footer {
     background-color: #333;
@@ -193,7 +197,6 @@ body {
     height: 24px;
     object-fit: contain;
 }
-
 
 html {
     scroll-behavior: smooth;
